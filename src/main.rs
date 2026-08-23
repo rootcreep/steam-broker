@@ -8,7 +8,7 @@ use thiserror::Error;
 
 use crate::broker::Broker;
 
-const DEFAULT_LISTEN: &str = "127.0.0.1:27420";
+const DEFAULT_LISTEN: &str = "172.20.10.6:27420";
 
 #[derive(Error, Debug)]
 enum BrokerError {
